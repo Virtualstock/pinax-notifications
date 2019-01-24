@@ -509,8 +509,8 @@ urlpatterns = [
 
 ### 4.0
 * _*BI*_: To support changes to `render_to_string` in Django 1.10 and above,
-your notice `full.txt` and `short.txt` plain text templates must now be autoescaped explicitly using the
-`{% autoescape %}` tag.
+your notice `full.txt` and `short.txt` plain text templates must now disable autoescaping explicitly using the
+`{% autoescape off %}` tag.
 ([#68](https://github.com/pinax/pinax-notifications/issues/68#issuecomment-258383323)) 
 
 ### 3.0.1
